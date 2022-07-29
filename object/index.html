@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>objects</title>
+    <style>
+        body{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            overflow: hidden;
+        }
+        .container{
+            border: 1px solid black;
+            padding: 25px;
+            width: 400px;
+        }
+        .container h1{
+            font-weight: bolder;
+            color: green;
+        }
+        .quote{
+            font-weight: bold;
+        }
+        .author{
+            font-weight: bold;
+            text-align: right;
+        }
+        .quote-item button{
+            margin: 0 auto;
+            display: flex;
+            border: 1px solid blue;
+            padding: 5px 50px;
+            color: blue;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <!-- Quotes here -->
+        <h1>Get your daily quote</h1>
+        <!-- quote container -->
+        <div class="quote-item">
+            <!-- quote -->
+            <p class="quote"></p>
+            <!-- author -->
+            <p class="author"></p>
+            <!-- buttton -->
+            <button>Click me</button>
+        </div>
+    </div>
+    <!-- Javascript here -->
+    <script src="./script.js"></script>
+</body>
+
+</html>
